@@ -126,6 +126,7 @@ To see the pixel ratio of your computer or device, check out [mydevice.io](https
    ```
 
    Make sure to include a fallback `<img>` with descriptive alt text. Since the `<picture>` element is used for art direction, the source image dimensions will not be the same, so you should not use `<img>` `width` and `height` attributes as you would with single images.
+   <!-- done -->
 
 ### Use Live Server and Dev Tools to make sure your images are loading properly
 
@@ -133,9 +134,13 @@ Before you open your webpage in Live Server, check the bottom left info bar on V
 
 ![no errors or warnings](readme-assets/errors.png)
 
+<!-- done -->
+
 If you have errors or warnings, click on the icons to see what they are and fix them.
 
 Once any problems are fixed, open Live Server and use the Dev Tools Network tab to make sure your images are loading properly.
+
+<!-- done -->
 
 ## 📷 On your About page, add an `<img>` with `srcset` and `size` attributes to serve different image sizes for different screen widths
 
@@ -148,8 +153,11 @@ Now, unlike the `<picture>` element, `<img>` with `srcset` and `size` attributes
 Let's add an `<img>` with different image sizes to our `about/index.html` page.
 
 1. Find a free high-resolution image for your About page image. You can search [Unsplash](https://unsplash.com/) or [Pexels](https://www.pexels.com/). Let's keep the max width of this image at 900px.
+<!-- done -->
 2. Use a photo editor, such as [befunky](https://www.befunky.com/create/), to crop your image if desired, and then resize your image to be 900px wide. Save this image in the `images` folder. For convenience, append "-900px" to the image file name.
+<!-- done -->
 3. Resize the same image to 600px wide and then 300px wide, appending the widths to the files names. Save these images in the `images` folder.
+<!-- done -->
 4. Open your `about/index.html` file in VS Code. If you were simply loading the 600px wide image, you'd use this markup:
 
    `<img src="../images/staring-squirrel-600px.jpg" alt="a brown squirrel on a black background" width="600" height="600">`
@@ -195,6 +203,8 @@ Let's add an `<img>` with different image sizes to our `about/index.html` page.
 
 Open the Network tab in Firefox's Dev Tools and resize the window to see when the images download.
 
+<!-- done -->
+
 Chrome handles image loading a little differently and is more likely to reuse a larger image in the cache. Try viewing the Network tab in Chrome to see the difference.
 
 | 📖 Learn more about srcset and sizes                                                                                                                                                                                                                                                  |
@@ -209,6 +219,11 @@ Images that take too long to download can impact SEO and user experience. Even i
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Watch this 7 minute video I recorded, [Dev Tools and image download time](https://youtu.be/oGgSqT6-KNo) to learn how to use the Network tab in Dev Tools to check image load times and also how to decrease image files sizes using an image editor or [TinyJPG](https://tinyjpg.com/). |
 
+<!-- DO THIS DO THIS DO THIS
+DONT MISS
+DO IT
+DONT FORGET IT -->
+
 ## 💹 Add SVG images
 
 ### Add an SVG image to your contact page using `<img>`
@@ -218,10 +233,10 @@ SVG images can be loaded on a web page just like PNG and JPG files.
 1. Find a free SVG image on a site such as [IconFinder](https://www.iconfinder.com/search?q=form&price=free) (make sure to filter for free icons), [unDraw](https://undraw.co/illustrations), [Lukasz Adam](https://lukaszadam.com/illustrations) or another resource.
 2. Make sure that the image has an `.svg` extension and save the SVG image file in your `images` folder.
 3. On your contact page, add an `<img>` element to load your SVG file. Use a relative path in the `src` attribute and don't forget to add an `alt` description.
-
-| 💡 Optional: optimizing SVG files with SVGO                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Many SVG files generated by illustration programs can contain extra, unnecessary info which increases the file size. Large websites can use a utility called [SVGO](https://github.com/svg/svgo) (SVG Optimizer) to automate cleaning up of SVG files. I frequently use the web app version of it, [SVGOMG](https://jakearchibald.github.io/svgomg/) to clean up SVG files. It's totally optional, but I wanted to make you aware of the resource. If you have to work with a lot of SVG files, it's very helpful. |
+   <!-- done -->
+   | 💡 Optional: optimizing SVG files with SVGO                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+   | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | Many SVG files generated by illustration programs can contain extra, unnecessary info which increases the file size. Large websites can use a utility called [SVGO](https://github.com/svg/svgo) (SVG Optimizer) to automate cleaning up of SVG files. I frequently use the web app version of it, [SVGOMG](https://jakearchibald.github.io/svgomg/) to clean up SVG files. It's totally optional, but I wanted to make you aware of the resource. If you have to work with a lot of SVG files, it's very helpful. |
 
 ### Add a simple inline SVG image to your main page using `<symbol>`
 
@@ -229,11 +244,15 @@ You can use the inline SVG you wrote for the [inline SVG learning task](https://
 
 Refer to the assigned reading [SVG intro](https://codepen.io/lsburton/pen/ZEBYbXw?editors=1100) for more information on inline SVG and `<symbol>`.
 
+<!-- done -->
+
 ### Use Live Server to make sure your images are displaying properly
 
 Before you open your webpage in Live Server, check that you don't have any errors or warnings. If you have errors or warnings, fix them.
 
 If everything looks good, then....
+
+<!-- done -->
 
 ## :arrow_up: Use VS Code's Source Control (in the sidebar) to commit your changes and sync these changes to Github
 
