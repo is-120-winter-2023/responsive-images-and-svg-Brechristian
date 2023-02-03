@@ -195,7 +195,7 @@ Let's add an `<img>` with different image sizes to our `about/index.html` page.
      src="../images/staring-squirrel-600w.jpg"
      alt="a brown squirrel on a black background"
      width="600"
-     height="758"
+     height="600"
    />
    ```
 
