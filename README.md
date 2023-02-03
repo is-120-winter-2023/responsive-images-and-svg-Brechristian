@@ -188,11 +188,11 @@ Let's add an `<img>` with different image sizes to our `about/index.html` page.
    <img
      srcset="
        ../images/staring-squirrel-300px.jpg 300w,
-       ../images/staring-squirrel-600px.jpg 600w,
+       ../images/staring-squirrel-600w.jpg  600w,
        ../images/staring-squirrel-900px.jpg 900w
      "
      sizes="50vw"
-     src="../images/staring-squirrel-600px.jpg"
+     src="../images/staring-squirrel-600w.jpg"
      alt="a brown squirrel on a black background"
      width="600"
      height="600"
